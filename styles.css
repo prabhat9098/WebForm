@@ -61,3 +61,24 @@ button:hover {
 .terms label {
     margin-left: 5px;
 }
+
+
+.checkbox-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.checkbox-list li {
+    margin-bottom: 10px;
+}
+
+.checkbox-list label {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkbox-list input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
